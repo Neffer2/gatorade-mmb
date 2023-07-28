@@ -1,6 +1,6 @@
 <!DOCTYPE html> 
 <html lang="es">
-<head>
+<head> 
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,6 +16,7 @@
     @livewireStyles
 </head>  
 <body>
+    <img id="gatorade_logo" src="{{ asset('assets/LANDING/LOGO_GATORADE_99X108PX.png') }}" alt="">
     <div class="row">
         <div class="col-md-12">
             <div class="custom-container">
@@ -31,7 +32,19 @@
                 </div>
             </div> 
         </div>
+         <div id="logos"> 
+            <div class="logos-container">
+               <img id="mmb" src="{{ asset('assets/LANDING/LOGO_MMB_141X45PX.png') }}" width="90">
+               <img id="team-gatorade" src="{{ asset('assets/LANDING/LOGO_TEAM_GATOA.png') }}" width="90">
+            </div>
+            <div class="logos-container">
+               <a href="https://gatorade.lat/co/eventos/" target="_blank">
+                  <img id="text_3" src="{{ asset('assets/LANDING/TEXTO_3.png') }}">
+               </a>
+            </div>
+         </div> 
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     @livewireScripts
     <script>

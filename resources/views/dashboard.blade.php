@@ -31,15 +31,12 @@
 
    <div class="row" id="phone">
       <div id="hero" class="col-md-12 d-flex justify-content-center align-items-center">
-         <img src="{{ asset('assets/LANDING/LOGO_GATORADE_99X108PX.png') }}" class="mt-3">
-         <img src="{{ asset('assets/LANDING/TEXTO_RESPONSIVE_312X330PX.png') }}">
+         <img src="{{ asset('assets/LANDING/logo_gatorade.png') }}" style="width: 24%">
+         <img src="{{ asset('assets/LANDING/experto.png') }}" style="width: 55%">
       </div>
       <div class="col-md-12 px-1 mt-2">
          <div class="image-container">
             <img id="imagenPhone">
-         </div>
-         <div id="botella"> 
-            <img src="{{ asset('assets/LANDING/ASSETS_IMAGEN_BEBIDA_365x746px.png') }}" width="150">
          </div>
       </div>
       <div class="col-md-12">
@@ -54,26 +51,20 @@
       </div>
       
       {{-- ABSOLUITES --}}
-      <div id="fecha">
-         <img src="{{ asset('assets/LANDING/TEXTO-RESPONSIVE-285X120PX.png') }}" width="120">
-      </div>
-      <div id="logos"> 
-         <div class="logos-container">
-            <img id="mmb" src="{{ asset('assets/LANDING/LOGO_MMB_141X45PX.png') }}" width="90">
-            <img id="team-gatorade" src="{{ asset('assets/LANDING/LOGO_TEAM_GATOA.png') }}" width="90">
+      <div id="footer-logos-phone">
+         <div id="botella"> 
+            <img src="{{ asset('assets/LANDING/botella1.png') }}">
          </div>
-         <div class="logos-container">
-            <a href="https://gatorade.lat/co/eventos/" target="_blank">
-               <img id="text_3" src="{{ asset('assets/LANDING/TEXTO_3.png') }}">
-            </a>
-         </div>
+         <img id="fecha" src="{{ asset('assets/LANDING/TEXTO-RESPONSIVE-285X120PX.png') }}" width="90">
+         <img id="mmb" src="{{ asset('assets/LANDING/LOGO_MMB_141X45PX.png') }}" width="90">
+         <img id="team-gatorade" src="{{ asset('assets/LANDING/LOGO_TEAM_GATOA.png') }}" width="90">
       </div>
    </div>
 
-      {{-- <form action="{{ route('logout') }}" method="POST">
+      <form action="{{ route('logout') }}" method="POST">
                @csrf
                <button>Salir</button>
-            </form>             --}}
+            </form>            
     @endsection 
     @section('scripts')
       @php 

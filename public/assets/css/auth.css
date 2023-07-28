@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0 !important;
     padding: 0 !important;
- }
+ } 
 
  @font-face {
     font-family: Gatorade-Black; 
@@ -19,7 +19,15 @@
     src: url("../fonts/Gatorade-Medium.ttf")  format('truetype');    
  }
 
- body {
+ html {
+   margin: 0;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ } 
+
+ body { 
     font-family: Gatorade-Medium, Arial, Helvetica, sans-serif; 
     background-image: url('../LANDING/_BACKGROUND--1920X1080-PX.png');
     background-size: cover;
@@ -45,8 +53,7 @@
  }
  
  .custom-container {
-   height: 100vh;
-   padding: 0 34% !important;
+   padding: 0 20% !important;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -90,10 +97,34 @@
    background-color: white;
  }
 
+ #gatorade_logo {
+   height: 50px;
+   position: absolute;
+   left: 1%;
+   top: 3%;
+ }
+
+ #logos {
+   position: absolute;
+   right: 1%;
+   bottom: 2%;
+}
+
+.logos-container {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+#text_3 {
+   width: 18rem;
+   height: auto;
+}
+
 input[type="text"] {
    background-color: transparent;
    color: white;
-   border-left: none; 
+   /* border-left: none;  */
    border-color: #1D1D1B;
 }
 
@@ -107,7 +138,6 @@ input[type="file"] {
 input[type="password"] {
    background-color: transparent;
    color: white;
-   border-left: none;
    border-color: #1D1D1B;
 }
 
@@ -144,6 +174,10 @@ a {
 @media (max-width: 768px) {
    .custom-container {
       padding: 0 !important;
+   }
+
+   #gatorade_logo {
+      left: 5%;
    }
 }
 
