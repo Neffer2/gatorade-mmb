@@ -61,10 +61,10 @@
       </div>
    </div>
 
-      <form action="{{ route('logout') }}" method="POST">
+      {{-- <form action="{{ route('logout') }}" method="POST">
                @csrf
                <button>Salir</button>
-            </form>            
+            </form>             --}}
     @endsection 
     @section('scripts')
       @php 
