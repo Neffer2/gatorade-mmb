@@ -13,9 +13,15 @@
             <a id="image-download" href="" class="btn btn-primary py-2 px-4 mt-2 me-1" download="Gatorade Runnig Series">
                <h5 class="bold"><i class="fa-solid fa-download"></i> DESCARGAR</h5>
             </a>
-            {{-- <a id="image-download1" href="" class="btn btn-primary py-1 px-5 mt-2 me-1" download="Gatorade Runnig Series">
-               <h3 class="bold"><i class="fa-solid fa-share"></i> COMPARTIR</h3>
+            <button class="share-button facebook py-1 px-3 mt-2 me-1">
+               <i class="fab fa-facebook-f"></i>
+            </button>
+            {{-- <a id="image-download2" href="" class="share-button instagram py-1 px-3 mt-2 me-1" download="Gatorade Runnig Series">
+               <i class="fa-brands fa-instagram"></i>
             </a> --}}
+            <button class="share-button whatsapp py-1 px-3 mt-2 me-1">
+               <i class="fab fa-whatsapp"></i>
+            </button> 
          </div>
       </div>
       <div id="logos"> 
@@ -41,12 +47,18 @@
       </div>
       <div class="col-md-12">
          <div class="button-container">
-            <a id="image-downloadPhone" href="" class="btn btn-primary py-2 px-4 mt-2" download="Gatorade Runnig Series">
+            <a id="image-downloadPhone" href="" class="btn btn-primary py-2 px-4 mt-2 me-1" download="Gatorade Runnig Series">
                <h5 class="bold"><i class="fa-solid fa-download"></i> DESCARGAR</h5>
             </a>
-            {{-- <a id="image-download1" href="" class="btn btn-primary py-1 px-5 mt-2 me-1" download="Gatorade Runnig Series">
-               <h3 class="bold"><i class="fa-solid fa-share"></i> COMPARTIR</h3>
+            <button class="share-button facebook py-1 px-3 mt-2 me-1">
+               <i class="fab fa-facebook-f"></i>
+            </button>
+            {{-- <a id="image-download2" href="" class="share-button instagram py-1 px-3 mt-2 me-1" download="Gatorade Runnig Series">
+               <i class="fa-brands fa-instagram"></i>
             </a> --}}
+            <button class="share-button whatsapp py-1 px-3 mt-2 me-1">
+               <i class="fab fa-whatsapp"></i>
+            </button> 
          </div>
       </div>
       
