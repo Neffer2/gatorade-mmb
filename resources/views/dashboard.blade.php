@@ -56,7 +56,7 @@
             {{-- <a id="image-download2" href="" class="share-button instagram py-1 px-3 mt-2 me-1" download="Gatorade Runnig Series">
                <i class="fa-brands fa-instagram"></i>
             </a> --}}
-            <button class="share-button whatsapp py-1 px-3 mt-2 me-1">
+            <button class="share-button whatsapp py-1 px-3 mt-2">
                <i class="fab fa-whatsapp"></i>
             </button> 
          </div>
